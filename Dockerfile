@@ -12,5 +12,5 @@ RUN npm install
 EXPOSE 3000
 
 #The below command is what happens when you run the container
-CMD ["note","server.js"]
+CMD ["node","server.js"]
 
